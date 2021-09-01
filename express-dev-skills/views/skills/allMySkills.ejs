@@ -1,0 +1,14 @@
+<body>
+    <h1>This is complete list of my developer skills</h1>
+    <ul>
+      <% skills.forEach(function(s) { %>
+      <li>
+        <a href="/skills/<%= s.id %>"><%= s.skill %></a>
+      </li>
+      <% }); %>
+    </ul>
+
+    <a href="/skills/new">Add skill</a>
+
+    <a href="/">home</a>
+  </body>

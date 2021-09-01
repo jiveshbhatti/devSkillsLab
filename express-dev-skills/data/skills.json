@@ -1,0 +1,17 @@
+[{  "id": 1,
+    "skill": "html",
+    "delete" : false
+  
+},
+    {   "id": 2,
+        "skill": "css",
+        "delete" : false
+       },
+
+       {   "id": 3,
+        "skill": "javascript",
+        "delete" : false
+       }
+
+]
+
